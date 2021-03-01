@@ -1,5 +1,6 @@
 html {
-    height: 100%;}
+    height: 100%;
+}
 
 body {
     background-color: #b6a996;
@@ -13,7 +14,8 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    min-height: 100%;}
+    min-height: 100%;
+}
 
 #content {
     background-color: #fff;
@@ -25,29 +27,34 @@ body {
     max-width: 580px;
     min-height: 4em;
     overflow: auto;
-    text-align: center;}
+    text-align: center;
+}
 
 h1, h2 {
     text-indent: 100%;
     white-space: nowrap;
-    overflow: hidden;}
+    overflow: hidden;
+}
 
 h1 {
     width: 278px;
     height: 112px;
     margin: 0 auto 0 auto;
     padding-top: 40px;
-    background: url('../images/elderflower-logo.png') no-repeat bottom center;}
+    background: url('../images/elderflower-logo.png') no-repeat bottom center;
+}
 
 h2 {
     width: 286px;
     height: 18px;
     margin: 0 auto 20px auto;
-    background: url('../images/custom-sign.png') no-repeat center center;}
+    background: url('../images/custom-sign.png') no-repeat center center;
+}
 
 #title {
     font-size: 120%;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
 #cost, .action {
     background-color: #f84c53;
@@ -55,37 +62,47 @@ h2 {
     width: auto;
     height: 1em;
     padding: 0.5em 0.75em;
-    float: right;}
+    float: right;
+}
+
 #cost {
     position: relative;
     top: 1em;
-    right: 2em;}
+    right: 2em;
+}
+
 .action {
     position: relative;
     top: 1.3em;
-    right: -2.3em;}
+    right: -2.3em;
+}
 
 #note {
-    background-color: #31373f; 
+    background-color: #31373f;
     border-radius: 0.5em;
     color: #e3bb5a;
     padding: 0.5em 1em;
     margin-top: 1em;
     text-transform: uppercase;
-    display: inline-block;}
+    display: inline-block;
+}
 
 a {
     color: #e3bb5a;
-    text-decoration:none;}
+    text-decoration: none;
+}
 
 .true, .false {
     background: url("../images/tick-cross.png");
     display: block;
-    float:right;
+    float: right;
     height: 25px;
-    width: 25px;}
+    width: 25px;
+}
+
 .false {
-    background-position: 0 -25px;}
+    background-position: 0 -25px;
+}
 
 .message {
     font-weight: bold;
@@ -93,20 +110,25 @@ a {
     height: 2em;
     display: block;
     clear: left;
-    min-width: 10em;}
+    min-width: 10em;
+}
 
-.message span { 
-    font-weight: normal;}
+.message span {
+    font-weight: normal;
+}
 
 .number {
-    text-align: left;}
+    text-align: left;
+}
 
 table {
-    margin: 20px 100px 0 100px;}
+    margin: 20px 100px 0 100px;
+}
 
 tr td:first-child {
     font-weight: bold;
-    padding-right: 20px;}
+    padding-right: 20px;
+}
 
 body:before, body:after {
     content: "";
@@ -114,14 +136,18 @@ body:before, body:after {
     background: #fff;
     left: 0;
     right: 0;
-    height: 20px;}
+    height: 20px;
+}
 
 body:before {
-    top: 0;}
+    top: 0;
+}
 
 body:after {
-    bottom: 0;}
+    bottom: 0;
+}
 
 body {
     border-left: 20px solid #fff;
-    border-right: 20px solid #fff;}
+    border-right: 20px solid #fff;
+}
